@@ -51,6 +51,7 @@ reason : A
 ```
 # SemEval-2020
 We will hold a contest in SemEval2020 based on this study. 
-You can check task 4 in http://alt.qcri.org/semeval2020/index.php?id=tasks
-Looking forward to your participation.
-You can find a more detailed task decription on https://www.youtube.com/watch?v=UAcO1I97iWg
+
+You can check task 4 in http://alt.qcri.org/semeval2020/index.php?id=tasks and find a more detailed task decription on https://www.youtube.com/watch?v=UAcO1I97iWg
+
+Looking forward to your participation!
