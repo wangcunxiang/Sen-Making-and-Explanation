@@ -3,7 +3,7 @@ This is the dataset for <Does It Make Sense? And Why? A Pilot Study for Sense Ma
 
 You can download the paper through https://arxiv.org/abs/1906.00363 .
 
-You can call this dataset as *Sen-Making*.
+You can call this dataset as **Sen-Making**.
 # Data Example
 ![Example Picture](https://github.com/wangcunxiang/Sen-Making-and-Explanation/raw/master/example.png)
 # Data Format
