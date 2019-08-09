@@ -30,22 +30,20 @@ Looking forward to your participation!
  # Citation
  If you find our work helpful, you can cite
  ```bib
- @article{DBLP:journals/corr/abs-1906-00363,
-  author    = {Cunxiang Wang and
-               Shuailong Liang and
-               Yue Zhang and
-               Xiaonan Li and
-               Tian Gao},
-  title     = {Does It Make Sense? And Why? {A} Pilot Study for Sense Making and
-               Explanation},
-  journal   = {CoRR},
-  volume    = {abs/1906.00363},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1906.00363},
-  archivePrefix = {arXiv},
-  eprint    = {1906.00363},
-  timestamp = {Thu, 13 Jun 2019 13:36:00 +0200},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1906-00363},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+ @inproceedings{wang-etal-2019-make,
+    title = "Does it Make Sense? And Why? A Pilot Study for Sense Making and Explanation",
+    author = "Wang, Cunxiang  and
+      Liang, Shuailong  and
+      Zhang, Yue  and
+      Li, Xiaonan  and
+      Gao, Tian",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1393",
+    pages = "4020--4026",
+    abstract = "Introducing common sense to natural language understanding systems has received increasing research attention. It remains a fundamental question on how to evaluate whether a system has the sense-making capability. Existing benchmarks measure common sense knowledge indirectly or without reasoning. In this paper, we release a benchmark to directly test whether a system can differentiate natural language statements that make sense from those that do not make sense. In addition, a system is asked to identify the most crucial reason why a statement does not make sense. We evaluate models trained over large-scale language modeling tasks as well as human performance, showing that there are different challenges for system sense-making.",
 }
 ```
