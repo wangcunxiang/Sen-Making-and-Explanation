@@ -21,9 +21,9 @@ You can call this dataset as **Sen-Making**.
 }
  ```
 # SemEval-2020
-We will hold a contest in SemEval2020 based on this study. 
+We will hold a contest in SemEval2020 based on this study. This contest will provide a **Training Dataset** of these tasks.
 
-You can check task 4 in http://alt.qcri.org/semeval2020/index.php?id=tasks and find a more detailed task decription on https://www.youtube.com/watch?v=UAcO1I97iWg
+You can check task 4 - Commonsense Validation and Explanation in http://alt.qcri.org/semeval2020/index.php?id=tasks.
 
 Looking forward to your participation!
 
