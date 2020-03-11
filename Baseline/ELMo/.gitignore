@@ -1,9 +1,0 @@
-
-bilm.egg-info/
-dist/
-build/
-data/
-*.pyc
-*.swp
-
-

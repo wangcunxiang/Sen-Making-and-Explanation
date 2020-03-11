@@ -20,7 +20,14 @@ You can call this dataset as **Sen-Making**.
   "reason": "A"
 }
 ```
+## ELMo Baseline
+
+You can find it at https://github.com/Shuailong/bilm-tf.
+
+
+
 # SemEval-2020
+
 We will hold a contest in SemEval2020 based on this study. This contest will provide a **Training set** and a **Development set**of these tasks.
 
 You can check task 4 - Commonsense Validation and Explanation in http://alt.qcri.org/semeval2020/index.php?id=tasks.
