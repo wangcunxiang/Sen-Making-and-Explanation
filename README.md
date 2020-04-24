@@ -8,7 +8,9 @@ You can call this dataset as **Sen-Making**.
 # Amendent on the Paper
 I sincerely apologize for making the 'perplexity' mistake in the paper.
 
-We use (p_{1}*p_{2}...p_{n})^{-1/n} =(\prod_{i=1}^{n}(p_{i} | sentence))^{-1/n} to calculate each sentence's score. We use the probabilities of the all words of one sentence to calculate it.
+We use score = (p_{1}*p_{2}...p_{n})^{-1/n} =(\prod_{i=1}^{n}(p_{i} | sentence))^{-1/n} to calculate each sentence's score. 
+ 
+We use the probabilities of the all words of one sentence to calculate it.
 We didn't think about using perplexity. We only wanted to use p_{i}|(sentence) to design a metric. But after we created the formula, we mistakenly mapped it to perplexity.
 
 We have revised the paper on this mistake, so please read the reversed paper in arXiv https://arxiv.org/abs/1906.00363 rather than the paper in Anthology.
