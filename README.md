@@ -24,7 +24,15 @@ You can call this dataset as **Sen-Making**.
 
 You can find it at https://github.com/Shuailong/bilm-tf.
 
+## 'Using Perplexity' in BERT Baseline
 
+I apologize for making a mistake in the paper. 
+
+BERT cannot give a valid probability distribution for sentences, but it can give the probability of each word of one sentence. We use (p_{1}*p_{2}...p_{n})^{-1/n} =(\prod_{i=1}^{n}(p_{i} \| sentence))^{-1/n}  to calculate each sentence's score. 
+
+We use the probabilities of the all words of one sentence to calculate it.
+
+Actually, we didn't think about using perplexity. We only wanted to use p_{i}|(sentence) to design a metric. But after we designed the formula, we mistakenly mapped it to perplexity.
 
 # SemEval-2020
 
