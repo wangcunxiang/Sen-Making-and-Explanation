@@ -57,8 +57,8 @@ def predict(text, bert_model, bert_tokenizer):
         # predict_list = predictions[0, masked_index]
         sentence_prob *= curr_prob
         #tokenized_text[masked_index] = masked_word
-    #return math.pow(sentence_prob, 1/(len(tokenized_text)-3))
-    return sentence_prob
+    return math.pow(sentence_prob, 1/(len(tokenized_text)-3))
+    #return sentence_prob
 '''
 # Load pre-trained model tokenizer (vocabulary)
 tokenizer = BertTokenizer.from_pretrained('./tmp/swag_output/')
