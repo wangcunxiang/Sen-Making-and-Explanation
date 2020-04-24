@@ -24,7 +24,7 @@ You can call this dataset as **Sen-Making**.
 
 You can find it at https://github.com/Shuailong/bilm-tf.
 
-## 'Using Perplexity' in BERT Baseline
+## About 'Using Perplexity' in BERT Baseline
 
 I sincerely apologize for making a mistake in the paper. 
 
