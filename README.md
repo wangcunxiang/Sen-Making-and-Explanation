@@ -4,6 +4,17 @@ This is the dataset for <Does It Make Sense? And Why? A Pilot Study for Sense Ma
 You can download the paper through https://arxiv.org/abs/1906.00363 .
 
 You can call this dataset as **Sen-Making**.
+
+# Amendent on the Paper
+I sincerely apologize for making the 'perplexity' mistake in the paper. 
+
+BERT cannot give a valid probability distribution for sentences, but it can give the probability of each word of one sentence. We use (p_{1}*p_{2}...p_{n})^{-1/n} =(\prod_{i=1}^{n}(p_{i} \| sentence))^{-1/n}  to calculate each sentence's score. 
+We use the probabilities of the all words of one sentence to calculate it.
+
+Actually, we didn't think about using perplexity. We only wanted to use p_{i}|(sentence) to design a metric. But after we designed the formula, we mistakenly mapped it to perplexity.
+
+We have revised the paper, so please read the reversed paper in arXiv https://arxiv.org/abs/1906.00363 rahther than paper in Anthology.
+
 # Data Example
 ![Example Picture](https://github.com/wangcunxiang/Sen-Making-and-Explanation/raw/master/example.png)
 # Data Format
