@@ -26,7 +26,7 @@ You can find it at https://github.com/Shuailong/bilm-tf.
 
 ## About 'Using Perplexity' in BERT Baseline
 
-I sincerely apologize for making a mistake in the paper. 
+I sincerely apologize for making the mistake in the paper. 
 
 BERT cannot give a valid probability distribution for sentences, but it can give the probability of each word of one sentence. We use (p_{1}*p_{2}...p_{n})^{-1/n} =(\prod_{i=1}^{n}(p_{i} \| sentence))^{-1/n}  to calculate each sentence's score. 
 
