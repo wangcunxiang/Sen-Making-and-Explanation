@@ -5,6 +5,8 @@ You can download the paper through https://arxiv.org/abs/1906.00363 .
 
 You can call this dataset as **Sen-Making**.
 
+**It is better to check SemEval2020-task4: https://github.com/wangcunxiang/SemEval2020-Task4-Commonsense-Validation-and-Explanation, because it has more data (train&valid data) and one extra subtask.**
+
 # Amendent on the Paper
 I sincerely apologize for making the 'perplexity' mistake in the paper.
 
